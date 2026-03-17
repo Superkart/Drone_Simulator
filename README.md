@@ -4,6 +4,14 @@ CitySampleAirSimTest is a UE5-based drone simulation project built on Epic City 
 
 This repository is prepared as a professional showcase for simulation, AR/VR, and real-time systems roles.
 
+## At a Glance
+
+- Real-time telemetry loop: ~30-120 Hz
+- Environment scale: ~16 km2 open-world urban map
+- Performance target: 60 FPS on high-end hardware
+- Integration: UE5 + AirSim RPC + custom C++ wrapper
+- Scope: source code, config, custom content, and demo-backed documentation
+
 ## Project Snapshot
 
 - Engine: Unreal Engine 5.0
@@ -16,10 +24,10 @@ This repository is prepared as a professional showcase for simulation, AR/VR, an
 
 ## Why This Project Matters
 
-- Built a real-time telemetry bridge between Unreal Engine and AirSim using C++.
-- Demonstrates large-scale simulation design with world streaming and runtime profile switching.
-- Shows system-level optimization decisions for drone mode versus driving mode traversal.
-- Combines engine programming, simulation architecture, and production-oriented tooling.
+- Built a production-style telemetry bridge between Unreal Engine and AirSim in C++.
+- Demonstrates large-scale simulation architecture with world streaming and runtime profile switching.
+- Shows systems-level optimization for drone mode and driving mode traversal.
+- Combines engine programming, simulation architecture, and delivery-focused documentation.
 
 ## Technical Highlights
 
@@ -43,17 +51,21 @@ This repository is prepared as a professional showcase for simulation, AR/VR, an
 
 ## Demo Videos
 
+### HITL Demonstrations
+
 1. Live HITL demo: https://www.youtube.com/watch?v=NT1wvHfB-Yc&list=PL_pgA-B53fz83bnfc2PzuO1TEwuv5lagW
 2. First full flight success in drone sim (HITL): https://www.youtube.com/watch?v=53wkBYKwNHM&list=PL_pgA-B53fz83bnfc2PzuO1TEwuv5lagW&index=2
-3. First fly success: https://www.youtube.com/watch?v=53wkBYKwNHM&list=PL_pgA-B53fz83bnfc2PzuO1TEwuv5lagW&index=2
-4. Custom drone model: https://www.youtube.com/watch?v=Mqouelkm-Y0&list=PL_pgA-B53fz83bnfc2PzuO1TEwuv5lagW&index=4
+
+### Custom Simulation Content
+
+1. Custom drone model demo: https://www.youtube.com/watch?v=Mqouelkm-Y0&list=PL_pgA-B53fz83bnfc2PzuO1TEwuv5lagW&index=4
 
 ## Recruiter-Friendly Contribution Summary
 
 - Engineered C++ simulation integration for AirSim RPC in a UE5 production-scale project.
 - Delivered real-time telemetry at interactive rates while supporting large-world traversal.
 - Applied runtime systems thinking to profile-based performance tuning and streaming behavior.
-- Shipped a structured technical artifact set suitable for review: source, config, docs, and demos.
+- Shipped a review-ready artifact set for hiring evaluation: source, config, docs, and demos.
 
 ## Repository Scope
 
