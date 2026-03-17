@@ -60,7 +60,7 @@ This repository is prepared as a professional showcase for simulation, AR/VR, an
 
 1. Custom drone model demo: https://www.youtube.com/watch?v=Mqouelkm-Y0&list=PL_pgA-B53fz83bnfc2PzuO1TEwuv5lagW&index=4
 
-## Recruiter-Friendly Contribution Summary
+## Contribution Summary
 
 - Engineered C++ simulation integration for AirSim RPC in a UE5 production-scale project.
 - Delivered real-time telemetry at interactive rates while supporting large-world traversal.
