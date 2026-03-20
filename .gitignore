@@ -23,6 +23,8 @@ Build/EditorPerfStats.csv
 # Keep repository lean: ignore all large content by default...
 Content-B/**
 # ...then include only your custom showcase content
+!Content-B/
+!Content-B/MyContent/
 !Content-B/MyContent/**
 
 # Optional: keep these out unless you explicitly want them

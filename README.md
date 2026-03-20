@@ -12,6 +12,23 @@ This repository is prepared as a professional showcase for simulation, AR/VR, an
 - Integration: UE5 + AirSim RPC + custom C++ wrapper
 - Scope: source code, config, custom content, and demo-backed documentation
 
+## Cloneability and Runability
+
+This repository is maintained in a professional Unreal-friendly layout so it can be cloned, built, and opened without shipping generated/cache data.
+
+### Runability Matrix
+
+- Clone + open editor: Supported
+- Compile C++ modules: Supported (with UE5 + VS prerequisites)
+- Run starter project flow and custom MyContent assets: Supported
+- Full City Sample scale experience: Requires external City Sample/AirSim dependency setup on local machine
+
+### Asset Strategy
+
+- Source-controlled: code, config, project files, and curated custom content
+- Excluded: generated artifacts (`Binaries`, `Intermediate`, `Saved`, `DerivedDataCache`)
+- Unreal binary assets (`.uasset`, `.umap`) are tracked using Git LFS for reliable clone behavior
+
 ## Project Snapshot
 
 - Engine: Unreal Engine 5.0
@@ -76,7 +93,7 @@ Included:
 - Source
 - Config
 - Platforms
-- MyContent custom showcase assets
+- MyContent custom runnable starter assets
 - Technical documentation
 
 Excluded:
@@ -99,6 +116,14 @@ Excluded:
 2. Pull LFS assets: git lfs pull
 3. Open CitySampleAirSimTest.uproject in Unreal Engine 5.
 4. Rebuild modules if Unreal prompts for compilation.
+5. Verify startup map and plugin dependencies (AirSim) are available in your local UE setup.
+
+### Professional Unreal Git Workflow Used
+
+- Keep generated UE outputs out of source control.
+- Track required Unreal binary assets with Git LFS.
+- Keep project cloneable by including a starter runnable content slice.
+- Document external dependencies explicitly for deterministic setup.
 
 ## Additional Documentation
 
