@@ -118,6 +118,30 @@ Excluded:
 4. Rebuild modules if Unreal prompts for compilation.
 5. Verify startup map and plugin dependencies (AirSim) are available in your local UE setup.
 
+### First Run Validation Checklist
+
+Use this as a fast pass/fail check after cloning:
+
+1. LFS assets downloaded successfully
+- Check: `git lfs ls-files` shows pointer entries and no missing-object errors.
+
+2. Project opens in Unreal Editor
+- Check: `CitySampleAirSimTest.uproject` opens without fatal plugin/module errors.
+
+3. C++ modules compile
+- Check: Unreal build step completes and editor finishes loading.
+
+4. Startup map loads
+- Check: Main menu level opens as configured in `Config/DefaultEngine.ini`.
+
+5. Basic Play-in-Editor works
+- Check: PIE starts, no immediate crash, and input/menu flow is responsive.
+
+6. AirSim dependency path is valid
+- Check: AirSim plugin is present/enabled and related Blueprint/C++ references resolve.
+
+If any check fails, review prerequisites first (UE version, VS toolchain, AirSim plugin, LFS pull status).
+
 ### Professional Unreal Git Workflow Used
 
 - Keep generated UE outputs out of source control.
